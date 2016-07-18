@@ -9,18 +9,18 @@
 <html>
 <head>
     <title>Title</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
-    <%--<script src="/js/jquery-2.1.1.min.js"></script>--%>
-<%----%>
-    <%--<link rel="stylesheet" href="/styles/themes/default/style.min.css">--%>
-    <%--<script src="/js/jtree.js"></script>--%>
+    <%--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />--%>
+    <%--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>--%>
+    <%--<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>--%>
+    <script src="/js/jquery-2.1.1.min.js"></script>
+
+    <link rel="stylesheet" href="/css/themes/default/style.min.css">
+    <script src="/js/jstree.js"></script>
 
 </head>
 <body>
 
-<form id="s">
+<form id="s" autocomplete="off">
     <input type="search" id="q"/>
     <button type="submit">Search</button>
 </form>

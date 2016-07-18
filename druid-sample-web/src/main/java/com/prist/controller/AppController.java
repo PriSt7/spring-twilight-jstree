@@ -25,7 +25,6 @@ public class AppController {
 
     @RequestMapping("/index")
     public String hello(ModelMap model) {
-        LOGGER.info("---------lalallalala");
         model.addAttribute("message", "Hello ---world!");
         return "jstree";
     }
